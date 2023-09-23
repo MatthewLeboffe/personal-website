@@ -1,0 +1,158 @@
+/* Global styles */
+* {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 5vw;
+  letter-spacing: 0.4em;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  color:white;
+  letter-spacing: 0.2em;
+  font-size: 3vw;
+  text-align: left;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2vw;
+  margin: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h4 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+hr {
+  width: 100%;
+  border: 3px solid white;
+  margin: 2% 0;
+  opacity: 100%;
+  align-self: center;
+}
+
+body {
+  background-color: #ADD8E6;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.nav-link{
+  color:black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.2em;
+  
+}
+
+#home {
+  height: 80vh;
+  align-items: center;
+  text-align: center;
+}
+
+#projects {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#classes {
+  
+}
+.card {
+  margin-top: 4%;
+  text-align: left;
+}
+
+
+#skills {
+  text-align:center;
+}
+
+.skill-badge {
+  background-color: white;
+  border-radius: 3px;
+  float: left;
+  padding: 1% 3%;
+  margin: 1%;
+}
+
+.skill-section > span{
+  margin-right: 1%;
+}
+
+
+/* Social media styles */
+.socials {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+ 
+}
+
+.social-icon {
+  font-size: 2em; 
+  color: white;
+}
+
+/* About section styles */
+.information {
+  margin: 0;
+  padding: 10%;
+}
+
+pre {
+  background-color: #373737;
+  padding: 0em;
+  border-radius: 2em;
+  line-height: 3em;
+}
+
+.about p {
+  color: #BBC2C5;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+
+
+/* Footer styles */
+footer {
+  margin-top: 5%;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+}
